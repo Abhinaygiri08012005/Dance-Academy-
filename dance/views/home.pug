@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js")
+   
+
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+    section#introSection
+        div Welcome to Abhinay's Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#missionSection 
+        h2 Our Mission 
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png" alt="Dance Perfection")
+                div.card-content
+                    p this is the best dance academy of the universe
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png" alt="Dance Perfection")
+                div.card-content
+                    p this is the best dance academy of the universe
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png" alt="Dance Perfection")
+                div.card-content
+                    p this is the best dance academy of the universe     
+    section#AboutUs 
+        h2 About Us
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, cupiditate tenetur. Totam numquam suscipit soluta voluptate delectus? Reiciendis ea tenetur, facere sequi necessitatibus error unde ipsum aliquid et distinctio nobis qui iste! Quos veritatis nostrum inventore eius placeat dicta dignissimos atque ad ab eveniet quae, minus quo accusantium eos ducimus quisquam magni vel odit mollitia et totam. Eius accusantium eaque, nobis hic tempora beatae. Sunt obcaecati ducimus laudantium dolorum excepturi nemo tenetur nulla, eos rem reprehenderit numquam sit labore vitae illo ipsam neque temporibus error aut aspernatur eaque vel officia hic. Delectus praesentium minus in porro, dolore quod blanditiis nesciunt ipsam quae neque perferendis, reiciendis eum inventore iste eligendi libero quisquam veniam, quaerat et molestias facere iure impedit fuga! Amet eum necessitatibus veritatis officia, suscipit voluptates ipsa magni obcaecati, facilis corrupti aliquid assumenda itaque culpa incidunt accusamus enim expedita neque, vitae facere laborum laboriosam. Autem illo ad quia repellendus earum?
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors
+          img(src= "/static/img/logo1.png", alt= "Sponsor Image", class= "spImage")
+          img(src= "/static/img/logo2.png", alt= "Sponsor Image", class= "spImage")
+          img(src= "/static/img/logo3.png", alt= "Sponsor Image", class= "spImage")
+          img(src= "/static/img/logo4.png", alt= "Sponsor Image", class= "spImage")
